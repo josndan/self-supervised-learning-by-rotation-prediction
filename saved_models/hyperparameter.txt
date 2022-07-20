@@ -1,0 +1,41 @@
+Without weight decay
+learning_rate = 1e-3
+momentum = 0.9
+step_size=7
+gamma=0.2
+
+In 50 Epochs test accuracy = 46 %
+
+learning_rate = 1e-4
+momentum = 0.9
+step_size=7
+gamma=0.2
+
+In 11 Epochs test accuracy =  60%
+
+
+With weight decay
+learning_rate = 5e-5
+momentum = 0.9
+step_size=5
+gamma=0.9
+weight_decay = 0.5
+
+In 50 Epochs test accuracy = 60 %
+
+
+rotation_efficientNetb0_cifar10_69:
+
+With weight decay
+learning_rate = 5e-5 to 5e-7
+momentum = 0.9
+step_size=5
+gamma=0.9
+weight_decay = 5
+
+It's not overfitting but both train and test accuracy doesn't increase
+
+In 50 Epochs test accuracy = 65 %
+
+
+
