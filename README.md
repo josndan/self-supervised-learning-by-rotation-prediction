@@ -10,6 +10,9 @@ Should download the following the dataset locally:
   
  Can run for other datasets with creating a dataset class in [custom_dataset.py](custom_dataset.py)
  
+ <br>
+ 
+ Driver Code in
  - [main.ipynb](main.ipynb) is used for training models for the rotation prediction task.
  - [visualization.ipynb](visualization.ipynb) is used for observing the Saliency map and calculating other metrics.
 
