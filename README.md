@@ -18,3 +18,4 @@ Should download the following the dataset locally:
 
 Credits:
 [solver.py](solver.py) code is adapted from the [CS 682 - Modern Introduction to Neural Network](https://compsci682-sp22.github.io/)
+
